@@ -1,1 +1,3 @@
-helm install mushop-utils setup --namespace mushop-utilities
+#!/bin/sh
+kubectl create namespace mushop
+clear

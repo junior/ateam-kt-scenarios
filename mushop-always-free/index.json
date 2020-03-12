@@ -5,7 +5,7 @@
 		"steps": [{
 			"title": "Step 1 - Clone MuShop repository",
 			"text": "step1.md",
-			"code": "clear.sh"
+			"code": "step1-code.sh"
 		}, {
 			"title": "Step 2 - Update Helm charts dependencies",
             "text": "step2.md",
@@ -22,11 +22,10 @@
 		}, {
 			"title": "Step 5 - Deploy MuShop",
             "text": "step5.md",
-            "code": "clear.sh"
+            "code": "step5-code.sh"
 		}],
 		"intro": {
             "text": "intro.md",
-            "code": "env-init.sh",
             "courseData": "intro-course-data.sh",
 			"credits": "This was created based on [https://slides.mushop.ateam.cloud/workshop/intro.html](https://slides.mushop.ateam.cloud/workshop/intro.html)"
 		},
@@ -36,15 +35,10 @@
 	},
 	"files": ["Makefile"],
 	"environment": {
-        "showdashboard": true,
-		"uilayout": "terminal",
-		"icon":"fa-kubernetes",
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
-        "dashboards": [
-            {"name": "Kubernetes Dashboard", "port": 30000}, 
-            {"name": "Grafana", "port": 31000},
-            {"name": "MuShop", "port": 32000}
-          ]
+        "icon":"fa-kubernetes",
+		"uilayout": "editor",
+		"uisettings": "makefile",
+		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
     },
     "embedded_survey_url": "https://forms.gle/8C7KiZ4nTD12cSsf8",
 	"backend": {

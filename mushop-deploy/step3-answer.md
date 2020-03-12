@@ -1,3 +1,1 @@
-```
-kubectl create namespace mushop-utilities
-```
+`kubectl create namespace mushop-utilities`{{execute}}
