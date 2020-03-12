@@ -25,7 +25,8 @@
             "code": "step5-code.sh"
 		}],
 		"intro": {
-			"text": "intro.md",
+            "text": "intro.md",
+            "courseData": "intro-course-data.sh",
 			"credits": "This was created based on [https://slides.mushop.ateam.cloud/workshop/intro.html](https://slides.mushop.ateam.cloud/workshop/intro.html)"
 		},
 		"finish": {
@@ -34,6 +35,7 @@
 	},
 	"files": ["Makefile"],
 	"environment": {
+        "icon":"fa-kubernetes",
 		"uilayout": "editor",
 		"uisettings": "makefile",
 		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
