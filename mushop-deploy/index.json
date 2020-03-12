@@ -18,8 +18,7 @@
 		}, {
             "title": "Step 4 - Use Helm to install the MuShop utilities",
             "text": "step4.md",
-            "code": "step4-code.sh",
-			"verify": "step4-verify.sh"
+            "code": "step4-code.sh"
 		}, {
 			"title": "Step 5 - Deploy MuShop",
             "text": "step5.md",
@@ -38,7 +37,8 @@
 		"uilayout": "editor",
 		"uisettings": "makefile",
 		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
-	},
+    },
+    "embedded_survey_url": "https://forms.gle/8C7KiZ4nTD12cSsf8",
 	"backend": {
 		"imageid": "kubernetes"
 	}
