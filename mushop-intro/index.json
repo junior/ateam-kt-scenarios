@@ -8,7 +8,6 @@
 		}],
 		"intro": {
 			"text": "intro.md",
-			"courseData": "intro-course-data.sh",
 			"credits": "This was created based on [https://slides.mushop.ateam.cloud/workshop/intro.html](https://slides.mushop.ateam.cloud/workshop/intro.html)"
 		},
 		"finish": {
