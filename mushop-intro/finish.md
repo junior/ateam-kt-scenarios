@@ -1,0 +1,1 @@
+As demonstrated in this scenario, MuShop is awesome.

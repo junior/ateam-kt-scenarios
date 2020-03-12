@@ -1,0 +1,1 @@
+In this scenario you will learn the workshop goals and what is MuShop.

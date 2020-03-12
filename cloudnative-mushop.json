@@ -1,0 +1,42 @@
+{
+  "title": "Cloud Native Workshop",
+  "description": "Cloud Native with Oracle OCI services WorkShop - MuShop Microservices",
+  "paid": false,
+  "courses": [
+    {
+      "title": "Introduction to MuShop",
+      "description": "Learn what is MuShop, and the Background, design, with demo",
+      "course_id": "mushop-intro",
+      "pathway_id": "basic",
+      "id": "mushop-intro"
+    },
+    {
+      "title": "Quickstarting with OCI",
+      "description": "Deployment to the OCI Always Free",
+      "course_id": "mushop-always-free",
+      "pathway_id": "basic",
+      "id": "mushop-always-free"
+    },
+    {
+      "title": "Intro to Kubernetes",
+      "description": "Building blocks of Kubernetes",
+      "course_id": "k8s-intro",
+      "pathway_id": "cloudnative-intro",
+      "id": "k8s-intro"
+    },
+    {
+      "title": "Deploying MuShop",
+      "description": "Lab with step-by-step deploying MuShop in mock mode",
+      "course_id": "mushop-deploy",
+      "pathway_id": "cloudnative-intro",
+      "id": "mushop-deploy"
+    },
+    {
+      "title": "Provisioning with OCI Service Broker",
+      "description": "Learn how to provision OCI services for MuShop using Open Service Broker",
+      "course_id": "osb",
+      "pathway_id": "cloudnative-advanced",
+      "id": "osb"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+	"title": "Deploying MuShop",
+	"description": "Learn how to deploy MuShop in mock mode",
+	"details": {
+		"steps": [{
+			"title": "Step 1 - Clone MuShop repository",
+			"text": "step1.md",
+			"code": "step1-code.sh"
+		}, {
+			"title": "Step 2 - Update Helm charts dependencies",
+            "text": "step2.md",
+            "code": "step2-code.sh"
+		}, {
+            "title": "Step 3 - Create namespace for the MuShop utilities",
+            "text": "step3.md",
+            "answer": "step3-answer.md",
+			"verify": "step3-verify.sh"
+		}, {
+            "title": "Step 4 - Use Helm to install the MuShop utilities",
+            "text": "step4.md",
+            "code": "step4-code.sh",
+			"verify": "step4-verify.sh"
+		}, {
+			"title": "Step 5 - Deploy MuShop",
+            "text": "step5.md",
+            "code": "step5-code.sh"
+		}],
+		"intro": {
+			"text": "intro.md",
+			"credits": "This was created based on [https://slides.mushop.ateam.cloud/workshop/intro.html](https://slides.mushop.ateam.cloud/workshop/intro.html)"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"files": ["Makefile"],
+	"environment": {
+		"uilayout": "editor",
+		"uisettings": "makefile",
+		"uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+	},
+	"backend": {
+		"imageid": "docker"
+	}
+}

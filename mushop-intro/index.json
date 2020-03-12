@@ -1,0 +1,21 @@
+{
+	"title": "Introduction to MuShop",
+	"description": "Learn what is MuShop, and the Background, design, with demo",
+	"details": {
+		"steps": [{
+			"title": "Workshop Goals",
+			"text": "goals.md"
+		}],
+		"intro": {
+			"text": "intro.md",
+			"courseData": "intro-course-data.sh",
+			"credits": "This was created based on [https://slides.mushop.ateam.cloud/workshop/intro.html](https://slides.mushop.ateam.cloud/workshop/intro.html)"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"backend": {
+		"imageid": "docker"
+	}
+}
