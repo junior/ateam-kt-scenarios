@@ -10,5 +10,7 @@ Deploy MuShop App:
 Check the pods creation:
 `kubectl get pods --namespace mushop --watch`{{execute}}
 
+
 Move to the next step when all the pods show the STATUS `Running`
+
 (Please ignore mushop-events and mushop assets-deploy pods)
