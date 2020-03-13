@@ -1,5 +1,6 @@
 {
-	"title": "Deploying MuShop",
+    "title": "Deploying MuShop",
+    "icon": "fa-kubernetes",
 	"description": "Learn how to deploy MuShop in mock mode",
 	"details": {
 		"steps": [{
@@ -38,7 +39,7 @@
 	"environment": {
         "showdashboard": true,
 		"uilayout": "terminal",
-		"icon":"fa-kubernetes",
+		"icon": "fa-kubernetes",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
         "dashboards": [
             {"name": "Kubernetes Dashboard", "port": 30000}, 
@@ -48,6 +49,6 @@
     },
     "embedded_survey_url": "https://forms.gle/8C7KiZ4nTD12cSsf8",
 	"backend": {
-		"imageid": "kubernetes"
+		"imageid": "kubernetes-cluster-running"
 	}
 }

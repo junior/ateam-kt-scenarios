@@ -8,4 +8,4 @@ Deploy MuShop App:
 ! It may take a few moments to download all the application images. It is also normal for some to show errors in mock mode.
 
 Check the pods creation:
-`kubectl get pod --watch`{{execute}}
+`kubectl get pods --namespace mushop --watch`{{execute}}

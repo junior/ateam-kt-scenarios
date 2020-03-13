@@ -1,0 +1,12 @@
+{
+    "title": "Cloud Native Workshop",
+    "icon": "fa-kubernetes",
+    "description": "Cloud Native with Oracle OCI services WorkShop - MuShop Microservices.",
+    "courses": [
+      {
+        "course_id": "mushop-deploy",
+        "title": "Deploying MuShop",
+        "description": "Lab with step-by-step deploying MuShop in mock mode."
+      }
+    ]
+  }
