@@ -9,8 +9,7 @@
 		}],
 		"intro": {
             "text": "intro.md",
-            "code": "env-init.sh",
-            "courseData": "intro-course-data.sh",
+            "courseData": "course-data.sh",
 			"credits": "A-Team"
 		},
 		"finish": {
