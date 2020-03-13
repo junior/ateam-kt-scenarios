@@ -1,0 +1,28 @@
+{
+    "title": "OCI Client",
+	"description": "Learn how to deploy MuShop in mock mode",
+	"details": {
+		"steps": [{
+			"title": "Enter OCI details",
+			"text": "step1.md",
+			"code": "step1-code.sh"
+		}],
+		"intro": {
+            "text": "intro.md",
+            "code": "env-init.sh",
+            "courseData": "intro-course-data.sh",
+			"credits": "A-Team"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"environment": {
+        "showdashboard": true,
+		"uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
+    },
+	"backend": {
+		"imageid": "ubuntu"
+	}
+}
