@@ -24,6 +24,13 @@
 			"title": "Step 5 - Deploy MuShop",
             "text": "step5.md",
             "code": "clear.sh"
+        },{
+			"title": "Step 6 - Open and Test MuShop",
+            "text": "step6.md"
+		},{
+			"title": "Step 7 - Test Kubernetes Dashboard",
+            "text": "step7.md",
+            "code": "step7-code.sh"
 		}],
 		"intro": {
             "text": "intro.md",
@@ -43,11 +50,9 @@
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n",
         "dashboards": [
             {"name": "Kubernetes Dashboard", "port": 30000}, 
-            {"name": "Grafana", "port": 31000},
-            {"name": "MuShop", "port": 32000}
+            {"name": "MuShop", "port": 80}
           ]
     },
-    "embedded_survey_url": "https://forms.gle/8C7KiZ4nTD12cSsf8",
 	"backend": {
 		"imageid": "kubernetes-cluster-running"
 	}
