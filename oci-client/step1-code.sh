@@ -1,13 +1,4 @@
 #!/bin/sh
 
-apt update
-apt install software-properties-common
-add-apt-repository ppa:deadsnakes/ppa
-apt install python3.7
-
-mkdir /oci-cli
-cd /oci-cli
-wget -qO- -O oci-cli.zip "https://github.com/oracle/oci-cli/releases/download/v2.9.5/oci-cli-2.9.5.zip"
-unzip oci-cli.zip -d .. > /dev/null
-pip3 install oci_cli-*-py2.py3-none-any.whl
 oci setup autocomplete
+[[ -e "/usr/local/lib/python3.5/dist-packages/oci_cli/bin/oci_autocomplete.sh" ]] && source "/usr/local/lib/python3.5/dist-packages/oci_cli/bin/oci_autocomplete.sh"
