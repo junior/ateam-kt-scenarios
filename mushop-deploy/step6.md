@@ -2,7 +2,7 @@
 
 Open the deployed MuShop App here:
 
-https://[[CLIENT_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
 
 Or use the Dashboards Tab, click on | MuShop |
 
