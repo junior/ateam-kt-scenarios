@@ -1,6 +1,7 @@
 {
+	"noindex": true,
     "title": "OCI Client",
-	"description": "Learn how to deploy MuShop in mock mode",
+	"description": "Configure and start using the OCI Cli",
 	"details": {
 		"steps": [{
 			"title": "Setup credentials and start using",
@@ -9,12 +10,15 @@
 		}],
 		"intro": {
             "text": "intro.md",
-            "courseData": "course-data.sh",
+			"courseData": "background.sh",
+            "code": "foreground.sh",
 			"credits": "A-Team"
 		},
-		"finish": {
-			"text": "finish.md"
-		}
+        "assets": {
+            "host01": [
+                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            ]
+        }
 	},
 	"environment": {
 		"uilayout": "terminal",
