@@ -3,7 +3,7 @@
 	"description": "Learn how to deploy MuShop in mock mode",
 	"details": {
 		"steps": [{
-			"title": "Enter OCI details",
+			"title": "Setup credentials and start using",
 			"text": "step1.md",
 			"code": "step1-code.sh"
 		}],
