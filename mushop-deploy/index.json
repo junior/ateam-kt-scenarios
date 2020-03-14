@@ -2,6 +2,8 @@
     "title": "Deploying MuShop",
     "icon": "fa-kubernetes",
 	"description": "Learn how to deploy MuShop in mock mode",
+	"difficulty": "beginner",
+	"time": "5-15 minutes",
 	"details": {
 		"steps": [{
 			"title": "Step 1 - Clone MuShop repository",
