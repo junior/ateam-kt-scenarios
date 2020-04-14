@@ -6,7 +6,7 @@ apt install python3.7 -y
 echo "done" >> /root/katacoda-finished
 mkdir /oci-cli
 cd /oci-cli
-wget -qO- -O oci-cli.zip "https://github.com/oracle/oci-cli/releases/download/v2.9.6/oci-cli-2.9.6.zip"
+wget -qO- -O oci-cli.zip "https://github.com/oracle/oci-cli/releases/download/v2.9.10/oci-cli-2.9.10.zip"
 unzip oci-cli.zip -d .. > /dev/null
 pip3 install oci_cli-*-py2.py3-none-any.whl
 yes | oci setup autocomplete

@@ -3,11 +3,13 @@
 Check version:
 `oci -v`{{execute}}
 
+Use authenticate this session
+`oci session authenticate`{{execute}}
+
+or
 
 Setup credentials:
 `oci setup config`{{execute}}
-
-Enter the required information.
 
 # Test it
 
