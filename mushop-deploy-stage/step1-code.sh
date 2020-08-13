@@ -1,0 +1,1 @@
+git clone https://github.com/oracle-quickstart/oci-cloudnative.git
