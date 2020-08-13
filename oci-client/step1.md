@@ -1,4 +1,4 @@
-# Setup:
+# Setup
 
 Check version:
 `oci -v`{{execute}}
@@ -11,7 +11,7 @@ or
 Setup credentials:
 `oci setup config`{{execute}}
 
-# Test it
+## Test it
 
 Check objectstore namespace:
 `oci os ns get`{{execute}}
