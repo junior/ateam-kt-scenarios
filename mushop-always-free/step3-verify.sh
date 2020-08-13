@@ -1,1 +1,0 @@
-(( $(kubectl get namespaces | grep mushop-utilities 2>/dev/null | wc -l) >= 1 )) && echo \"done\"
