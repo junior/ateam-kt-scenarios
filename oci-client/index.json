@@ -12,7 +12,7 @@
             "text": "intro.md",
 			"courseData": "background.sh",
             "code": "foreground.sh",
-			"credits": "A-Team"
+			"credits": "Adao"
 		},
         "assets": {
             "host01": [
