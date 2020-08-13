@@ -1,9 +1,14 @@
-# Setup
+
+#
+
+## Check the cli
 
 Check version:
 `oci -v`{{execute}}
 
-Use authenticate this session
+## Authenticate
+
+Authenticate this session
 `oci session authenticate`{{execute}}
 
 or
