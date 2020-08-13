@@ -2,7 +2,10 @@
 
 Open the deployed MuShop App here:
 
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+https://[[HOST_SUBDOMAIN]]-31497-[[KATACODA_HOST]].environments.katacoda.com/ (NodePort)
+
+or here: 
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/ (Ingress Port 80)
 
 Or use the Dashboards Tab, click on | MuShop |
 
