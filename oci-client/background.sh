@@ -1,10 +1,10 @@
 #!/bin/sh
 
-OCI_CLI_VERSION=2.12.7
+OCI_CLI_VERSION=2.21.5
 apt update -y
 apt install software-properties-common -y
 add-apt-repository ppa:deadsnakes/ppa -y
-apt install python3.8 -y
+apt install python3.9 -y
 echo "done" >> /root/katacoda-finished
 mkdir /oci-cli
 cd /oci-cli
