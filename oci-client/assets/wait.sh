@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 show_progress()
 {
   echo -n "Preparing"
