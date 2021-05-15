@@ -1,19 +1,15 @@
-# Using the Kubernetes Dashboard
+# Play with Grafana
 
-## Get token to use with dashboard
+## Get Grafana Admin Password
 
-Get the token needed to authenticated to the Dashboard.
+`kubectl get secret -n mushop-utilities mushop-utils-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo`{{execute}}
 
-`kubectl describe secret $(kubectl get secret | awk '/^dashboard-token-/{print $1}') | awk '$1=="token:"{print $2}'`{{execute}}
+## Open the deployed Grafana Dashboards here
 
-## Open Kubernetes Dashboard
+[Open Grafana](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/grafana) (Ingress Port 80)
 
-Open the deployed MuShop App here:
+Or copy and paste this link on your browser: `https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/grafana`
 
-https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/
+That options will direct you to the Grafana Dashboards.
 
-Or use the Dashboards Tab, click on | Kubernetes Dashboard |
-
-Select token authentication and paste the copied token.
-
-When you have the Kubernetes Dashboard open, change the namespace to mushop or mushop-utilities to navigage to the deployed pods.
+![Grafana Dashboard: Kubernetes Cluster](./assets/grafana-cluster-dashboard.png)
